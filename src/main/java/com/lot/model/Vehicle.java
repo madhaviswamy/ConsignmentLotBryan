@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 public class Vehicle {
 
-    ManyToOne
+    @ManyToOne
     Owner owner;
 
 }
